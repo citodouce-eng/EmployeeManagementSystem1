@@ -11,6 +11,7 @@ public class Employee {
         if (salary < 0) {
             throw new IllegalArgumentException("Salary cannot be negative");
         }
+        //
         this.id = id;
         this.name = name;
         this.department = department;
